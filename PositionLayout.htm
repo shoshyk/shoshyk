@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<style media="screen">
+  .side{
+    background: rgb(198,117,247);
+    width: 30%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+  }
+ .main-container {
+   height: 1000px;
+   width: 100%;
+   height: 100%;
+   background: rgb(203,157,207);
+   position: relative;
+ }
+
+ main {
+   position: absolute;
+   height: 100%;
+   width: 70%;
+ }
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+ .header {
+   background: rgb(150,26,217);
+   width: 100%;
+   height: 70px;
+ }
+ footer {
+   background: rgb(132,17,225);
+   width: 100%;
+   height: 70px;
+ }
+
+ .header--secondery {
+   font-family: 'Montserrat', sans-serif, Verdana, Arial, Helvetica;
+   text-shadow: 2px 2px 4px #558ABB;
+   font-size: 300%;
+   text-align: center;
+   background: rgb(192,29,205);
+   height: 80px;
+   width: 100%;
+   position: absolute;
+   margin-top: 20px;
+ }
+
+</style>
+
+<html>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header class="header"></header>
+    <div class="main-container">
+      <main>
+        <h2 class="header--secondery">secondery-header</h2>
+      </main>
+      <div class="side"></div>
+    </div>
+    <footer></footer>
+
+  </body>
+</html>
